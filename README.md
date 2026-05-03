@@ -1,7 +1,7 @@
 # 👋 About Me:
 
-🎓 Master of Analytics @ UC Berkeley (May 2026) | Data Analytics & Strategy
-💡 I build the models and explain what they mean — to engineers and executives alike.
+🎓 Master of Analytics @ UC Berkeley (May 2026) | Data Analytics & Strategy  
+💡 I build the models and explain what they mean — to engineers and executives alike.  
 📦 Background in demand forecasting and ML-powered business solutions
 
 ---
