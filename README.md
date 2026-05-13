@@ -13,28 +13,28 @@ LinkedIn: [rameen-faisal](https://www.linkedin.com/in/rameen-faisal/) | Email: r
 **Languages**
 Python, SQL
 
-**LLM and AI Engineering**
-Large language model APIs (Anthropic Claude, Google Gemini), prompt engineering, retrieval-augmented generation (RAG), embedding-based semantic search, sentence-transformers, knowledge base design, streaming inference
+**Data and Analytics**
+pandas, NumPy, SciPy, Matplotlib, Tableau, Power BI, Looker
 
 **Machine Learning**
 scikit-learn, XGBoost, TensorFlow, PyTorch, feature engineering, classification, regression, ensemble methods
 
-**Data and Analytics**
-pandas, NumPy, SciPy, Matplotlib, Tableau, Power BI, Looker
-
 **Databases and Infrastructure**
 PostgreSQL, MySQL, Snowflake, Git, Jupyter, Linux
+
+**LLM and AI Engineering**
+Anthropic Claude, Google Gemini, retrieval-augmented generation, embedding-based semantic search, sentence-transformers, prompt engineering
 
 ---
 
 ## Projects
 
 **LLM Personal Knowledge Base**
-Karpathy-style knowledge base on AI social platform design. Built a three-layer pipeline: messy informal research notes as input, a Gemini 2.5 Flash compiler that reads all sources simultaneously and synthesizes interlinked wiki articles (resolving contradictions and surfacing cross-source implications), and a retrieval-augmented Q&A interface using local sentence-transformer embeddings for cosine similarity search. 6,085 words across 10 articles with 90 WikiLinks. Runs entirely on free-tier APIs.
+Karpathy-style RAG pipeline on AI social platform design. Raw research notes compiled by Gemini 2.5 Flash into interlinked wiki articles, with sentence-transformer embedding retrieval and cited Q&A. Runs entirely on free-tier APIs.
 [github.com/rameenft/LLM-knowledge-base](https://github.com/rameenft/LLM-knowledge-base)
 
 **Backtesting Simulation for Trading Strategies**
-Daily-close backtesting system on five years of Nasdaq-100 data (101 stocks, 1,255 trading days). Implemented and evaluated single-asset strategies (momentum, mean reversion, MACD, Bollinger Bands, RSI) and portfolio-level strategies (cross-sectional momentum, inverse-volatility weighting). Designed two new strategies that beat both benchmarks: a market-timed momentum strategy using a 90-day broad-market trend filter achieved Sharpe 1.35 with a maximum drawdown of -11.84%, versus the benchmark Sharpe of 1.01. Built with strict no-lookahead, no-leverage, and no-short constraints throughout.
+Daily-close backtesting system on five years of Nasdaq-100 data (101 stocks). Evaluated classic single-asset and portfolio-level strategies; designed two new strategies that beat both benchmarks, with the best achieving Sharpe 1.35 and max drawdown -11.84%.
 [github.com/rameenft/Backtesting-Simulation](https://github.com/rameenft/Backtesting-Simulation)
 
 **Mobile Mall — Demand Forecasting and Logistics**
