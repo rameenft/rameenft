@@ -30,7 +30,7 @@ Anthropic Claude, Google Gemini, retrieval-augmented generation, embedding-based
 ## Projects
 
 **LLM Personal Knowledge Base**
-Karpathy-style RAG pipeline on AI social platform design. Raw research notes compiled by Gemini 2.5 Flash into interlinked wiki articles, with sentence-transformer embedding retrieval and cited Q&A. Runs entirely on free-tier APIs.
+Karpathy-style RAG pipeline on AI social platform design. Raw research notes compiled by Gemini 2.5 Flash into interlinked wiki articles, with sentence-transformer embedding retrieval and cited Q&A. 
 [github.com/rameenft/LLM-knowledge-base](https://github.com/rameenft/LLM-knowledge-base)
 
 **Backtesting Simulation for Trading Strategies**
