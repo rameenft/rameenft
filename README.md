@@ -1,6 +1,6 @@
 # Rameen Faisal
 
-Master of Analytics, UC Berkeley (May 2026). I work at the intersection of machine learning, data engineering, and decision-making — building systems that are quantitatively rigorous and actually usable.
+Master of Analytics, UC Berkeley (May 2026). I combine machine learning, data engineering, and decision-making to build systems that are quantitatively rigorous and actually usable.
 
 Background in demand forecasting and ML-powered business solutions. Currently focused on LLM engineering, quantitative strategy, and data modeling.
 
