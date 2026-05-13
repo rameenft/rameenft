@@ -1,73 +1,56 @@
-# 👋 About Me:
+# Rameen Faisal
 
-🎓 Master of Analytics @ UC Berkeley (May 2026) | Data Analytics & Strategy  
-💡 I build the models and explain what they mean — to engineers and executives alike.  
-📦 Background in demand forecasting and ML-powered business solutions
+Master of Analytics, UC Berkeley (May 2026). I work at the intersection of machine learning, data engineering, and decision-making — building systems that are quantitatively rigorous and actually usable.
 
----
+Background in demand forecasting and ML-powered business solutions. Currently focused on LLM engineering, quantitative strategy, and data modeling.
 
-## 🌐 Socials:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rameen-faisal/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rameen@berkeley.edu)
+LinkedIn: [rameen-faisal](https://www.linkedin.com/in/rameen-faisal/) | Email: rameen@berkeley.edu
 
 ---
 
-## 💻 Tech Stack:
+## Technical Skills
 
-**Languages & Programming:**
+**Languages**
+Python, SQL
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**LLM and AI Engineering**
+Large language model APIs (Anthropic Claude, Google Gemini), prompt engineering, retrieval-augmented generation (RAG), embedding-based semantic search, sentence-transformers, knowledge base design, streaming inference
 
-**Data Science & ML Libraries:**
+**Machine Learning**
+scikit-learn, XGBoost, TensorFlow, PyTorch, feature engineering, classification, regression, ensemble methods
 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189000?style=for-the-badge&logo=xgboost&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+**Data and Analytics**
+pandas, NumPy, SciPy, Matplotlib, Tableau, Power BI, Looker
 
-**Visualization & Analytics:**
-
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-**Databases & Tools:**
-
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+**Databases and Infrastructure**
+PostgreSQL, MySQL, Snowflake, Git, Jupyter, Linux
 
 ---
 
-## 🤝 Open To:
+## Projects
 
-- Internship & full-time roles in **Data Analytics, Data Science, Strategy & Operations, or Supply Chain Analytics**
-- Projects at the intersection of **ML and business decision-making**
-- Collaborations on **demand forecasting, churn modeling, or operational analytics**
+**LLM Personal Knowledge Base**
+Karpathy-style knowledge base on AI social platform design. Built a three-layer pipeline: messy informal research notes as input, a Gemini 2.5 Flash compiler that reads all sources simultaneously and synthesizes interlinked wiki articles (resolving contradictions and surfacing cross-source implications), and a retrieval-augmented Q&A interface using local sentence-transformer embeddings for cosine similarity search. 6,085 words across 10 articles with 90 WikiLinks. Runs entirely on free-tier APIs.
+[github.com/rameenft/LLM-knowledge-base](https://github.com/rameenft/LLM-knowledge-base)
+
+**Backtesting Simulation for Trading Strategies**
+Daily-close backtesting system on five years of Nasdaq-100 data (101 stocks, 1,255 trading days). Implemented and evaluated single-asset strategies (momentum, mean reversion, MACD, Bollinger Bands, RSI) and portfolio-level strategies (cross-sectional momentum, inverse-volatility weighting). Designed two new strategies that beat both benchmarks: a market-timed momentum strategy using a 90-day broad-market trend filter achieved Sharpe 1.35 with a maximum drawdown of -11.84%, versus the benchmark Sharpe of 1.01. Built with strict no-lookahead, no-leverage, and no-short constraints throughout.
+[github.com/rameenft/Backtesting-Simulation](https://github.com/rameenft/Backtesting-Simulation)
+
+**Mobile Mall — Demand Forecasting and Logistics**
+Entrepreneurial venture bringing retail access to underserved towns in Pakistan. Built demand forecasting models to optimize inventory and logistics across pilot locations. Early-stage profitability achieved.
+
+**Customer Churn Prediction Pipeline**
+End-to-end ML pipeline built during a Google Hackathon (2nd place). Feature engineering, model selection, and evaluation across multiple classifiers.
+
+**Debt Default Prediction**
+Machine learning model for debt default risk assessment using logistic regression and ensemble methods.
+
+**Tesla Strategic Sourcing Analysis**
+Total landed cost modeling and supplier scenario analysis. Combined cost optimization with supply chain risk assessment.
 
 ---
 
-## 🚀 Featured Projects:
+## Open To
 
-### 📦 Mobile Mall — Demand Forecasting & Logistics System
-> Entrepreneurial venture bringing retail access to underserved towns in Pakistan. Built demand forecasting models to optimize inventory and logistics across pilot locations. Early-stage profitability achieved.
-
-### 🔁 Customer Churn Prediction Pipeline
-> End-to-end ML pipeline built during a Google Hackathon (2nd place). Included feature engineering, model selection, and evaluation across multiple classifiers.
-
-### 💳 Debt Default Prediction Model
-> Machine learning model to predict debt default risk. Achieved strong ROC AUC performance using logistic regression and ensemble methods.
-
-### 🚗 Tesla Strategic Sourcing Analysis
-> Total landed cost modeling and supplier scenario analysis for a strategic sourcing case study. Combined cost optimization with supply chain risk assessment.
+Full-time roles in data science, ML engineering, analytics engineering, or strategy and operations. Particularly interested in roles that involve LLM systems, quantitative modeling, or applied ML at the product level.
