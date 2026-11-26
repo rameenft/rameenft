@@ -12,6 +12,7 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/rameen-faisal/) or rea
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**Snowflake Planning Pipeline and AI Assistant**](https://github.com/rameenft/snowflake-planning-pipeline-and-ai-assistant) | Controlled-retrieval AI operations chatbot for a medical apparel company's production and supply planning. Covers the Snowflake pipeline design, a fail-closed assistant that only explains approved SQL results, and its evaluation (runnable prototype on synthetic data). | Snowflake, SQL, Python, LLM evaluation |
 | [**Mine Safety Copilot**](https://github.com/rameenft/mine-safety-copilot) | Grounded safety copilot for surface mines, built on 30 CFR Part 56 and MSHA accident records. Hybrid RAG, guardrails, evals, and an MCP server. | Python, RAG, MCP |
 | [**OnVibe Competitor Analysis**](https://github.com/rameenft/onvibe-competitor-analysis) | Web app that turns a brand and 3 competitors into a social-media competitive-analysis report, with scraping, Gemini classification, a topic knowledge graph, and PDF export. | Next.js, Python, Supabase, Gemini |
 | [**LLM Personal Knowledge Base**](https://github.com/rameenft/LLM-knowledge-base) | Gemini 2.5 Flash compiles raw research notes into interlinked wiki articles, with embedding retrieval and cited Q&A. | Python, Gemini, sentence-transformers |
